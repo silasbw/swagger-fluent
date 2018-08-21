@@ -1,0 +1,27 @@
+{
+  "name": "fluent-openapi",
+  "version": "0.0.1",
+  "description": "A fluent client for OpenAPI and Swagger",
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "standard && mocha"
+  },
+  "repository": "silasbw/fluent-openapi",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silasbw/fluent-openapi/issues"
+  },
+  "homepage": "https://github.com/silasbw/fluent-openapi#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nock": "^9.6.1",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.1"
+  }
+}
