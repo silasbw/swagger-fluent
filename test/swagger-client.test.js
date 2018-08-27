@@ -5,7 +5,7 @@ const { expect } = require('chai')
 const nock = require('nock')
 
 const common = require('./common')
-const Client = require('../')
+const Client = require('../lib/client')
 
 const beforeTesting = common.beforeTesting
 
