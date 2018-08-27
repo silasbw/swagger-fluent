@@ -1,6 +1,6 @@
 {
   "name": "fluent-openapi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A fluent client for OpenAPI and Swagger",
   "main": "./lib/index.js",
   "scripts": {
