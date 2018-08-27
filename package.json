@@ -9,6 +9,9 @@
     "test": "standard && mocha"
   },
   "repository": "silasbw/fluent-openapi",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "swagger",
     "openapi",
