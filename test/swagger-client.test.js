@@ -1,6 +1,4 @@
 /* eslint-env mocha */
-/* eslint-disable max-nested-callbacks */
-
 const { expect } = require('chai')
 const nock = require('nock')
 
@@ -26,7 +24,7 @@ describe('lib.swagger-client', () => {
           })
       })
 
-      it.skip('creates a dynamically generated client', done => {
+      it('creates a dynamically generated client', done => {
         const config = { url: common.api.url }
         const client = new Client({ config })
         client.loadSpec()
@@ -101,12 +99,6 @@ describe('lib.swagger-client', () => {
     })
 
     describe('.constructor', () => {
-      it.skip('creates a dynamically generated client synchronously based on version', () => {
-        const options = { config: {}, version: '1.9' }
-        const client = new Client(options)
-        expect(client.api.get).is.a('function')
-      })
-
       it('creates a dynamically generated client synchronously from swagger spec', () => {
         const options = {
           config: {},
