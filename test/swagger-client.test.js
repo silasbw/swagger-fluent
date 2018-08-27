@@ -173,20 +173,24 @@ describe('lib.swagger-client', () => {
         expect(client.foo('zoo').bar).is.a('object')
       })
 
-      it.skip('aliases resources', () => {
+      it('aliases resources', () => {
         const spec = {
           paths: {
-            '/foo/deployments': {
+            '/foo/bars': {
               get: {
-                operationId: 'fooDeploymentsGet'
+                operationId: 'fooBarsGet'
               }
             }
           }
         }
-        const client = new Client({ spec, http: {} })
-        expect(client.foo.deployments).is.truthy()
-        expect(client.foo.deployment).is.truthy()
-        expect(client.foo.deploy).is.truthy()
+        const getNames = split => {
+          if (split === 'bars') return [ 'bar', 'bars', 'b' ]
+          return [ split ]
+        }
+        const client = new Client({ spec, http: {}, getNames })
+        expect(client.foo.bars).to.be.an('object')
+        expect(client.foo.bar).to.be.an('object')
+        expect(client.foo.b).to.be.an('object')
       })
     })
   })
