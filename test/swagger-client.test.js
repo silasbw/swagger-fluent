@@ -5,37 +5,8 @@ const nock = require('nock')
 const common = require('./common')
 const Client = require('../lib/client')
 
-const beforeTesting = common.beforeTesting
-
 describe('lib.swagger-client', () => {
   describe('.Client', () => {
-    describe('.loadSpec', () => {
-      beforeTesting('unit', () => {
-        nock(common.api.url)
-          .get('/swagger.json')
-          .reply(200, {
-            paths: {
-              '/api/': {
-                get: {
-                  operationId: 'getCoreAPIVersions'
-                }
-              }
-            }
-          })
-      })
-
-      it('creates a dynamically generated client', done => {
-        const config = { url: common.api.url }
-        const client = new Client({ config })
-        client.loadSpec()
-          .then(() => {
-            expect(client.api.get).is.a('function')
-            done()
-          })
-          .catch(err => done(err))
-      })
-    })
-
     describe('.get', () => {
       it('returns the result for 2XX', done => {
         nock(common.api.url)
