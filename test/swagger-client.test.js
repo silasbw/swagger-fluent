@@ -2,21 +2,22 @@
 const { expect } = require('chai')
 const nock = require('nock')
 
-const common = require('./common')
 const Client = require('../lib/client')
+
+const url = 'https://foo.com'
 
 describe('lib.swagger-client', () => {
   describe('.Client', () => {
     describe('.get', () => {
       it('returns the result for 2XX', done => {
-        nock(common.api.url)
+        nock(url)
           .get('/magic')
           .reply(200, {
             message: 'ta dah'
           })
 
         const options = {
-          config: { url: common.api.url },
+          config: { url },
           spec: {
             paths: {
               '/magic': {
@@ -38,14 +39,14 @@ describe('lib.swagger-client', () => {
       })
 
       it('throws an error on non-2XX', done => {
-        nock(common.api.url)
+        nock(url)
           .get('/magic')
           .reply(404, {
             message: 'fail!'
           })
 
         const options = {
-          config: { url: common.api.url },
+          config: { url },
           spec: {
             paths: {
               '/magic': {
