@@ -20,5 +20,6 @@ const client = new Client({ spec })
 
 ### `Client(options)`
 
-`options.getNames(split, splits)` - a callback to translate each path
-name to an alternate name or set of names.
+`options.getNames(name, ancestors)` - a function to translate each
+path name to an alternate name or array of names. You could, for
+example, alias the resource "namespaces" to "namespace" and "ns".
