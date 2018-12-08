@@ -1,5 +1,7 @@
 # fluent-openapi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/silasbw/fluent-openapi.svg)](https://greenkeeper.io/)
+
 [![Build Status][build]](https://travis-ci.org/silasbw/fluent-openapi)
 
 [build]: https://travis-ci.org/silasbw/fluent-openapi.svg?branch=master
