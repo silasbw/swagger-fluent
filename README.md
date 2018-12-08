@@ -1,9 +1,8 @@
 # fluent-openapi
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/silasbw/fluent-openapi.svg)](https://greenkeeper.io/)
+[![Build Status][build]](https://travis-ci.org/silasbw/fluent-openapi) [![Greenkeeper badge][greenkeeper]](https://greenkeeper.io/)
 
-[![Build Status][build]](https://travis-ci.org/silasbw/fluent-openapi)
-
+[greenkeeper]: https://badges.greenkeeper.io/silasbw/fluent-openapi.svg
 [build]: https://travis-ci.org/silasbw/fluent-openapi.svg?branch=master
 
 A fluent client for OpenAPI and Swagger.
