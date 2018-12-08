@@ -62,5 +62,3 @@ module.exports.afterTesting = afterTesting
 module.exports.beforeTesting = beforeTesting
 module.exports.beforeTestingEach = beforeTestingEach
 module.exports.only = only
-module.exports.thirdPartyDomain = 'kubernetes-client.com'
-module.exports.customResourceDomain = 'kubernetes-client.com'
