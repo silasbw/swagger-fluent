@@ -1,6 +1,10 @@
 # fluent-openapi
 
-A fluent client for OpenAPI and Swagger
+[![Build Status][build]](https://travis-ci.org/silasbw/fluent-openapi)
+
+[build]: https://travis-ci.org/silasbw/fluent-openapi.svg?branch=master
+
+A fluent client for OpenAPI and Swagger.
 
 ## Using
 
