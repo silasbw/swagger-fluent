@@ -5,7 +5,7 @@ A fluent client for OpenAPI and Swagger
 ## Using
 
 ```js
-cosnt spec = fs.readFileSync('./swagger.json')
+const spec = require('./swagger.json')
 const Client = require('fluent-openapi')
 const client = new Client({ spec })
 ```
