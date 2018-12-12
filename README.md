@@ -11,7 +11,7 @@ A fluent client for OpenAPI and Swagger.
 
 ```js
 const spec = require('./swagger.json')
-const Client = require('fluent-openapi')
+const { Client } = require('fluent-openapi')
 const client = new Client({ spec })
 ```
 
