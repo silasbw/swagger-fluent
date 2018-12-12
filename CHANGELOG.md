@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/silasbw/fluent-openapi/compare/1.0.0...2.0.0) (2018-12-12)
+
+
+### Bug Fixes
+
+* **handler:** call handler with all options (not just select ones) ([#13](https://github.com/silasbw/fluent-openapi/issues/13)) ([ee45108](https://github.com/silasbw/fluent-openapi/commit/ee45108))
+
+
+### Features
+
+* **getPath:** add method to get the Component path as a string ([#10](https://github.com/silasbw/fluent-openapi/issues/10)) ([f8d04d0](https://github.com/silasbw/fluent-openapi/commit/f8d04d0))
+* **request:** update request handling interface and implementation ([#11](https://github.com/silasbw/fluent-openapi/issues/11)) ([e65679b](https://github.com/silasbw/fluent-openapi/commit/e65679b))
+
+
+### BREAKING CHANGES
+
+* **request:** be less `request` specific to help facilitate integrations
+with Fetch or swagger-js.
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/silasbw/fluent-openapi/compare/0.1.1...1.0.0) (2018-10-31)
 
