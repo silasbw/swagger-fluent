@@ -28,6 +28,7 @@
     "mocha": "^5.2.0",
     "nock": "^10.0.4",
     "node-fetch": "^2.3.0",
+    "sinon": "^7.2.2",
     "standard": "^12.0.1",
     "standard-version": "^4.4.0"
   },
