@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard --fix",
     "release": "standard-version --tag-prefix=''",
-    "test": "standard && mocha lib/**.test.js"
+    "test": "standard && mocha 'lib/**/*.test.js'"
   },
   "repository": "silasbw/fluent-openapi",
   "files": [
