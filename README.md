@@ -106,6 +106,3 @@ directly to the API caller.
 * `options.qs` - named query parameters (legacy).
 * `options.pathname` - URL pathname.
 * `options.stream` - true if called by a "stream method".
-
-[1]: https://swagger.io/specification/#pathItemObject
-[2]: https://swagger.io/specification/#pathTemplating
