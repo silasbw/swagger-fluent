@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/silasbw/fluent-openapi/compare/2.0.0...3.0.0) (2018-12-24)
+
+
+### Code Refactoring
+
+* **backend:** rename "clients" to "backend" ([#20](https://github.com/silasbw/fluent-openapi/issues/20)) ([2d01f73](https://github.com/silasbw/fluent-openapi/commit/2d01f73))
+
+
+### Features
+
+* **fetch:** add a reference client using fetch ([#14](https://github.com/silasbw/fluent-openapi/issues/14)) ([2c9ebae](https://github.com/silasbw/fluent-openapi/commit/2c9ebae))
+* **parameters:** track pathname parameters and pass to the handler ([#17](https://github.com/silasbw/fluent-openapi/issues/17)) ([023252b](https://github.com/silasbw/fluent-openapi/commit/023252b))
+* **swagger:** add a swagger-js based client ([#18](https://github.com/silasbw/fluent-openapi/issues/18)) ([036307d](https://github.com/silasbw/fluent-openapi/commit/036307d))
+
+
+### BREAKING CHANGES
+
+* **backend:** renamed Client `.http` option to `.backend`
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/silasbw/fluent-openapi/compare/1.0.0...2.0.0) (2018-12-12)
 
