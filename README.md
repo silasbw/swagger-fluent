@@ -99,9 +99,9 @@ The backend must implement an `.http` method. fluent-openapi passes
 the following options to the `.http` method, and returns the result
 directly to the API caller.
 
-* `options.body` - JSONifable object or undefined.
+* `options.body` - JSONifable object.
 * `options.method` - HTTP method.
-* `optoins.operationId` - Swagger/OpenAPI operation ID.
+* `options.operationObject` - Swagger/OpenAPI Operation Object.
 * `options.parameters` - named query parameters.
 * `options.qs` - named query parameters (legacy).
 * `options.pathname` - URL pathname.
