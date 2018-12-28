@@ -101,7 +101,7 @@ directly to the API caller.
 
 * `options.body` - JSONifable object.
 * `options.method` - HTTP method.
-* `options.operationObject` - Swagger/OpenAPI Operation Object.
+* `options.pathItemObject` - Swagger/OpenAPI Path Item Object.
 * `options.parameters` - named query parameters.
 * `options.qs` - named query parameters (legacy).
 * `options.pathname` - URL pathname.
