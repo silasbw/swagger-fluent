@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/silasbw/swagger-fluent/compare/3.1.0...3.1.1) (2018-12-29)
+
+
+### Bug Fixes
+
+* **loading:** don't fail if Path Item Object already exists ([#27](https://github.com/silasbw/swagger-fluent/issues/27)) ([8a04b38](https://github.com/silasbw/swagger-fluent/commit/8a04b38))
+
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/silasbw/fluent-openapi/compare/3.0.0...3.1.0) (2018-12-29)
 
