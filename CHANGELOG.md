@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/silasbw/fluent-openapi/compare/3.0.0...3.1.0) (2018-12-29)
+
+
+### Features
+
+* **backend:** pass Operation Object to backend ([#23](https://github.com/silasbw/fluent-openapi/issues/23)) ([d8820a7](https://github.com/silasbw/fluent-openapi/commit/d8820a7))
+* **backend:** pass Path Item Object to backend ([#24](https://github.com/silasbw/fluent-openapi/issues/24)) ([551bdf8](https://github.com/silasbw/fluent-openapi/commit/551bdf8))
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/silasbw/fluent-openapi/compare/2.0.0...3.0.0) (2018-12-24)
 
