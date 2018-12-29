@@ -1,9 +1,9 @@
-# fluent-openapi
+# swagger-fluent
 
-[![Build Status][build]](https://travis-ci.org/silasbw/fluent-openapi) [![Greenkeeper badge][greenkeeper]](https://greenkeeper.io/)
+[![Build Status][build]](https://travis-ci.org/silasbw/swagger-fluent) [![Greenkeeper badge][greenkeeper]](https://greenkeeper.io/)
 
-[greenkeeper]: https://badges.greenkeeper.io/silasbw/fluent-openapi.svg
-[build]: https://travis-ci.org/silasbw/fluent-openapi.svg?branch=master
+[greenkeeper]: https://badges.greenkeeper.io/silasbw/swagger-fluent.svg
+[build]: https://travis-ci.org/silasbw/swagger-fluent.svg?branch=master
 
 A fluent OpenAPI and Swagger client for JavaScript and Node.js.
 
@@ -42,10 +42,10 @@ will throw those errors to the caller.
 ```js
 const spec = require('./swagger.json')
 const url = 'https://petstore.swagger.io/v2/'
-const FetchBackend = require('fluent-openapi/backends/fetch')
+const FetchBackend = require('swagger-fluent/backends/fetch')
 const backend = new FetchBackend({ fetch, url })
 
-const { Client } = require('fluent-openapi')
+const { Client } = require('swagger-fluent')
 const client = new Client({ spec, backend })
 
 const response = await client.pet.findByStatus.get({ parameters: { status: 'available' } })
@@ -75,13 +75,13 @@ backend.
 * `options.url` - Base URL for HTTP API.
 
 ```js
-const FetchBackend = require('fluent-openapi/backends/fetch')
+const FetchBackend = require('swagger-fluent/backends/fetch')
 ```
 
 ### `RequestBackend(options)`
 
 ```js
-const RequestBackend = require('fluent-openapi/backends/request')
+const RequestBackend = require('swagger-fluent/backends/request')
 ```
 
 ### `SwaggerClientBackend(options)`
@@ -90,12 +90,12 @@ Create a [swagger-js](https://github.com/swagger-api/swagger-js)-based
 backend.
 
 ```js
-const SwaggetClientBackend = require('fluent-openapi/backends/swagger-client')
+const SwaggetClientBackend = require('swagger-fluent/backends/swagger-client')
 ```
 
 ### Custom backend
 
-The backend must implement an `.http` method. fluent-openapi passes
+The backend must implement an `.http` method. swagger-fluent passes
 the following options to the `.http` method, and returns the result
 directly to the API caller.
 
