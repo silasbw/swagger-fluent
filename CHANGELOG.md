@@ -2,12 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [3.1.4](https://github.com/silasbw/swagger-fluent/compare/3.1.3...3.1.4) (2019-05-20)
+# [3.2.0](https://github.com/silasbw/swagger-fluent/compare/3.1.4...3.2.0) (2019-05-24)
 
 
 ### Bug Fixes
 
-* **parameters:** fix passing pathname parameters to backends ([#33](https://github.com/silasbw/swagger-fluent/issues/33)) ([d74f27c](https://github.com/silasbw/swagger-fluent/commit/d74f27c))
+* **Component:** fix issues with subclassing Component ([#35](https://github.com/silasbw/swagger-fluent/issues/35)) ([b2a3d75](https://github.com/silasbw/swagger-fluent/commit/b2a3d75))
+
+
+### Features
+
+* **_addEndpoint:** returns Component object that gets the endpoint ([#34](https://github.com/silasbw/swagger-fluent/issues/34)) ([5863f27](https://github.com/silasbw/swagger-fluent/commit/5863f27))
 
 
 
