@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [4.0.0](https://github.com/silasbw/swagger-fluent/compare/3.2.1...4.0.0) (2019-11-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** removing Node.js 6 support
+
+* **deps:** bump nock to 11.7.0 ([#47](https://github.com/silasbw/swagger-fluent/issues/47)) ([da9882b](https://github.com/silasbw/swagger-fluent/commit/da9882b))
 
 ## [3.2.1](https://github.com/silasbw/swagger-fluent/compare/3.2.0...3.2.1) (2019-05-25)
 
