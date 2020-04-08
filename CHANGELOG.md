@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/silasbw/swagger-fluent/compare/4.0.0...5.0.0) (2020-04-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* to avoid pulling in `request`.
+
+### Bug Fixes
+
+* double slash in fetch backend path construction ([#53](https://github.com/silasbw/swagger-fluent/issues/53)) ([33373af](https://github.com/silasbw/swagger-fluent/commit/33373af))
+
+
+* don't use default backend, to avoid unnecessary deps ([#54](https://github.com/silasbw/swagger-fluent/issues/54)) ([c4e7cf4](https://github.com/silasbw/swagger-fluent/commit/c4e7cf4))
+
 ## [4.0.0](https://github.com/silasbw/swagger-fluent/compare/3.2.1...4.0.0) (2019-11-02)
 
 
