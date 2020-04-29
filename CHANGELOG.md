@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.2](https://github.com/silasbw/swagger-fluent/compare/5.0.1...5.0.2) (2020-04-29)
+
+
+### Bug Fixes
+
+* remove requirement for operationId ([#69](https://github.com/silasbw/swagger-fluent/issues/69)) ([bf5cbf7](https://github.com/silasbw/swagger-fluent/commit/bf5cbf7))
+* **loader:** use isPlainObject when merging. ([#68](https://github.com/silasbw/swagger-fluent/issues/68)) ([cc2c177](https://github.com/silasbw/swagger-fluent/commit/cc2c177))
+
 ### [5.0.1](https://github.com/silasbw/swagger-fluent/compare/5.0.0...5.0.1) (2020-04-09)
 
 ## [5.0.0](https://github.com/silasbw/swagger-fluent/compare/4.0.0...5.0.0) (2020-04-08)
