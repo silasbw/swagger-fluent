@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.3](https://github.com/silasbw/swagger-fluent/compare/5.0.2...5.0.3) (2020-04-30)
+
+
+### Bug Fixes
+
+* only try to expose supported methods ([#72](https://github.com/silasbw/swagger-fluent/issues/72)) ([827db20](https://github.com/silasbw/swagger-fluent/commit/827db20))
+
 ### [5.0.2](https://github.com/silasbw/swagger-fluent/compare/5.0.1...5.0.2) (2020-04-29)
 
 

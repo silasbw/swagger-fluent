@@ -1,6 +1,6 @@
 {
   "name": "swagger-fluent",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "A fluent client for OpenAPI and Swagger",
   "main": "./lib/index.js",
   "scripts": {
