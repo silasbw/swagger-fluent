@@ -1,6 +1,6 @@
 {
   "name": "swagger-fluent",
-  "version": "5.0.3",
+  "version": "5.0.3-exodus",
   "description": "A fluent client for OpenAPI and Swagger",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "release": "standard-version --tag-prefix=''",
     "test": "standard && mocha 'lib/**/*.test.js'"
   },
-  "repository": "silasbw/swagger-fluent",
+  "repository": "ExodusMovement/swagger-fluent",
   "files": [
     "lib"
   ],
@@ -20,9 +20,9 @@
   "author": "Silas Boyd-Wickizer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silasbw/swagger-fluent/issues"
+    "url": "https://github.com/ExodusMovement/swagger-fluent/issues"
   },
-  "homepage": "https://github.com/silasbw/swagger-fluent#readme",
+  "homepage": "https://github.com/ExodusMovement/swagger-fluent/#readme",
   "devDependencies": {
     "chai": "4.2.0",
     "mocha": "7.1.2",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "is-plain-object": "^3.0.0",
+    "is-plain-object": "^5.0.0",
     "request": "^2.88.0"
   }
 }
