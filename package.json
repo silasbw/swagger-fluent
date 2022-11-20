@@ -26,7 +26,7 @@
   "devDependencies": {
     "chai": "4.2.0",
     "mocha": "7.1.2",
-    "nock": "12.0.3",
+    "nock": "13.2.9",
     "node-fetch": "2.6.1",
     "sinon": "9.0.2",
     "standard": "14.3.3",
